@@ -9,6 +9,7 @@ header {
 	background-color: #F25F5C;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .portfolio-title {
 	color: white;
