@@ -7,5 +7,24 @@ header {
 	background-color: rgba(242,95,92,0.7);
 	/* pink-ish colored background */
 	background-color: #F25F5C;
+	display: flex;
+	justify-content: space-between;
 }
-	
+.portfolio-title {
+	color: white;
+	float: left;
+	font-size: 36px;
+}
+.flexbar {
+	float: right;
+}
+.link {
+	width: 150px;
+	padding: 0 10px;
+	text-align: center;
+	background-color: #28587B; 
+	color: white;
+	text-decoration: none;
+    font-size: 24px;
+	margin-right: 25px;
+}
