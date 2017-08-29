@@ -1,0 +1,11 @@
+header {
+	box-sizing: box-border;
+	width: 100%;
+	font-family: Roboto, Verdana, sans-serif;
+	padding: 25px;
+	/* off-pink colored background with 70% opacity */
+	background-color: rgba(242,95,92,0.7);
+	/* pink-ish colored background */
+	background-color: #F25F5C;
+}
+	
