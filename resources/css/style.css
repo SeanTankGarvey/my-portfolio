@@ -34,6 +34,26 @@ header {
 	justify-content: center;
 	flex-wrap: wrap;
 }
+h2 {
+	font-size: 24px; 
+	text-align: center;
+	color: red;
+	padding: 20px;
+}
+p {
+	font-size: 18px;
+	padding: 10px 300px;
+	min-width: 250px;
+}
+.contact {
+	text-align: center;
+}
+footer {
+	padding-top: 20px;
+}
+body {
+	background-color: #F6F6F6;
+}
 @media only screen and (max-width: 450px) {
 	.portfolio-title {
 		display: none;
@@ -54,9 +74,15 @@ header {
 		width: 400px;
 		height: 400px;
 	}
+	p {
+		padding: 10px 0;
+	}
 }
 @media only screen and (min-width: 450px) and (max-width: 620px) {
     header {
 		flex-wrap: wrap;
+	}
+	p {
+		padding: 10px 0;
 	}
 }
