@@ -53,3 +53,8 @@ header {
 		height: 400px;
 	}
 }
+@media only screen and (min-width: 450px) and (max-width: 620px) {
+    header {
+		flex-wrap: wrap;
+	}
+}
