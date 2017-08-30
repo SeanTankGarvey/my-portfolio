@@ -1,6 +1,4 @@
 header {
-	box-sizing: box-border;
-	width: 100%;
 	font-family: Roboto, Verdana, sans-serif;
 	padding: 25px;
 	/* off-pink colored background with 70% opacity */
@@ -28,4 +26,15 @@ header {
 	text-decoration: none;
     font-size: 24px;
 	margin-right: 25px;
+}
+@media only screen and (max-width: 450px) {
+	.portfolio-title {
+		display: none;
+	}
+	.link {
+		width: 100px;
+		padding: 0 5px;
+		font-size: 16px;
+		margin-right: 10px;
+	}
 }
