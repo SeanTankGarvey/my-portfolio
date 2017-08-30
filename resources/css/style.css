@@ -27,6 +27,10 @@ header {
     font-size: 24px;
 	margin-right: 25px;
 }
+.portfolio {
+	display: flex;
+	justify-content: center;
+}
 @media only screen and (max-width: 450px) {
 	.portfolio-title {
 		display: none;
@@ -36,5 +40,9 @@ header {
 		padding: 0 5px;
 		font-size: 16px;
 		margin-right: 10px;
+	}
+	iframe {
+		height: 200px;
+		width: 200px;
 	}
 }
