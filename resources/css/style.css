@@ -52,7 +52,10 @@ footer {
 	padding-top: 20px;
 }
 body {
-	background-color: #F6F6F6;
+	background-color: #CCCCCC
+}
+iframe {
+	background-color: white;
 }
 @media only screen and (max-width: 450px) {
 	.portfolio-title {
